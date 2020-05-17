@@ -79,7 +79,7 @@ h1 {
   }
   
   nav {
-    background: #ccc;
+    background: #006994;
     border: 1px solid black;
     position: absolute;
     left: 0;
@@ -112,14 +112,55 @@ h1 {
 
 .navBtn {
 
-    margin: 0px;
-    font-size: 20px;
-    border: 1px solid black;
-    width: 130px;
-    display: flex;
-    border-radius: 10px;
-    
+  border: 1px solid black;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  display: inline-block;
+  margin: 5px 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  border: 3px solid #fff;
+  color: #fff;
 }
+
+.navBtn:hover {
+background: rgb(60, 91, 138);
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+button {
+-webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: outset;
+    border-image: initial;
+  }
 li {
     list-style: none;
 }
